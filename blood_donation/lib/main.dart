@@ -2,6 +2,7 @@ import 'package:blood_donation/create_account.dart';
 import 'package:blood_donation/create_account_two.dart';
 import 'package:blood_donation/forget_password.dart';
 import 'package:blood_donation/otp_verification.dart';
+import 'package:blood_donation/sign_up.dart';
 import 'package:blood_donation/splash_screen.dart';
 import 'package:flutter/material.dart';
 
@@ -16,11 +17,12 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+        debugShowCheckedModeBanner: false,
         title: 'Flutter Demo',
         theme: ThemeData(
           primarySwatch: Colors.blue,
         ),
-        home: CreateAccountTwo());
+        home: SignUP());
   }
 }
 
