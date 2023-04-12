@@ -1,3 +1,4 @@
+import 'package:dropdown_textfield/dropdown_textfield.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/src/widgets/framework.dart';
 import 'package:flutter/src/widgets/placeholder.dart';
@@ -162,6 +163,10 @@ class _SignUPState extends State<SignUP> {
                           borderRadius: BorderRadius.circular(45)),
                     ),
                   ),
+                  SizedBox(
+                    height: 16,
+                  ),
+                  //DropDownTextField(dropDownList: dropDownList)
                 ],
               ),
             )

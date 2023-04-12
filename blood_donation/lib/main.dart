@@ -1,6 +1,8 @@
 import 'package:blood_donation/create_account.dart';
 import 'package:blood_donation/create_account_two.dart';
 import 'package:blood_donation/forget_password.dart';
+import 'package:blood_donation/home_page.dart';
+import 'package:blood_donation/navbar.dart';
 import 'package:blood_donation/otp_verification.dart';
 import 'package:blood_donation/sign_up.dart';
 import 'package:blood_donation/splash_screen.dart';
@@ -22,7 +24,7 @@ class MyApp extends StatelessWidget {
         theme: ThemeData(
           primarySwatch: Colors.blue,
         ),
-        home: SignUP());
+        home: HomePage());
   }
 }
 
